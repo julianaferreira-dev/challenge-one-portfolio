@@ -1,0 +1,154 @@
+section.apresentacao {
+    display: flex;
+    justify-content: center;
+}
+
+.apresentacao__conteudo {
+    width: 1136px;
+    padding: 0px 152px 0px 152px;
+    display: flex;
+    justify-content: space-between; 
+    gap: 17px;
+}
+
+.apresentacao__conteiner {
+    margin-top: 61px;
+    min-width: 751px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.apresentacao__texto1 {
+    margin: 0;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 61.05px;
+}
+
+.apresentacao__texto2 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 25.83px;
+}
+
+.apresentacao__links {
+    display: flex;
+    gap: 32px;
+}
+
+.apresentacao__links__item {
+    font-weight: 500;
+    line-height: 18.78px;
+}
+
+.apresentacao__links__item a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.apresentacao__links__item a:hover {
+    color: var(--cor-detalhe);
+}
+
+.apresentacao__foto {
+    width: 368px;
+    height: 368px;
+    border-radius: 50%;
+    order: 2;
+}
+
+
+
+/*    TABLET    */
+
+@media (max-width: 768px) {
+
+    .apresentacao__conteudo {
+        width: 768px;
+        padding: 32px;
+        align-items: center;
+        gap: 32px;
+    }
+
+    .apresentacao__conteiner {
+        margin-top: 0px;
+        min-width: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .apresentacao__texto1 {
+        font-size: 22px;
+        line-height: 22px;
+    }
+
+    .apresentacao__texto2 {
+        font-size: 16px;
+        line-height: 18.78px;
+    }
+
+    .apresentacao__foto {
+        width: 146px;
+        height: 146px;
+        order: 2;
+    }
+
+}
+
+
+
+/*    MOBILE    */
+
+@media (max-width: 425px) {
+
+    .apresentacao__conteudo { 
+        width: 425px;
+        padding: 16px;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        gap: 16px;
+    }
+
+    .apresentacao__conteiner {
+        gap: 16px;
+    }
+
+    .apresentacao__links {
+        gap: 8px;
+    }
+
+    .apresentacao__links__item {
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 16.44px;
+    }
+    
+    .apresentacao__links__item a {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+    }
+
+    .apresentacao__texto1 {
+        font-size: 22px;
+        line-height: 25.83px;
+    }
+
+    .apresentacao__texto2 {
+        font-size: 14px;
+        text-align: start;
+        line-height: 16.44px;
+    }
+
+    .apresentacao__foto {
+        width: 98px;
+        height: 98px;
+        order: 1;
+    }
+    
+}

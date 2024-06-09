@@ -1,0 +1,287 @@
+section.contato{
+    padding: 64px 152px 64px 152px;
+    background-color: var(--cor-da-secao);
+}
+
+.contato__conteiner {
+    padding: 64px 0px 0px 0px;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+
+.contato__conteudo {
+    width: 656px;
+    height: 593px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.contato__info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.contato__titulo {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37.57px;
+}
+
+.contato__texto {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.78px;
+}
+
+
+
+/* FORMULÁRIO */
+
+fieldset {
+    padding: 0px 0px 32px 0px;
+    border: none;
+}
+
+.contato__formulario {
+    width: 656px;
+    height: 478px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contato__formulario__entrada {
+    width: 632px;
+    height: 56px;
+    padding: 0px 12px 0px 12px;
+    background-color: #FFFFFF;
+    color: var(--cor-da-fonte);
+    font-family: var(--fonte);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    border: none;
+    border-bottom: #C8C8C8 solid 1px;
+    border-radius: 4px;
+}
+
+.contato__formulario__entrada::placeholder {
+    width: 632px;
+    height: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    background-color: #FFFFFF;
+}
+
+.contato__formulario__entrada:focus::placeholder {
+    color: var(--cor-detalhe);
+    font-size: 12px;
+}
+
+.contato__formulario__entrada:focus {
+    outline: none;
+    border-bottom: var(--cor-detalhe) solid 2px;
+}
+
+.contato__formulario__entradaTexto {
+    width: 634px;
+    height: 133px;
+    padding: 12px;
+    background-color: #FFFFFF;
+    color: var(--cor-da-fonte);
+    font-family: var(--fonte);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    border: none;
+    border-bottom: #C8C8C8 solid 1px;
+    border-radius: 4px;
+    resize: none;
+    outline: none;
+}
+
+.contato__formulario__entradaTexto::placeholder {
+    width: 632px;
+    height: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    background-color: #FFFFFF;
+}
+
+.contato__formulario__entradaTexto:focus::placeholder {
+    color: var(--cor-detalhe);
+    font-size: 12px;
+}
+
+.contato__formulario__entradaTexto:focus {
+    outline: none;
+    border-bottom: var(--cor-detalhe) solid 2px;
+}
+
+
+
+/* ERRO */
+
+.mensagem__erro{
+    margin-top: 2px;
+    margin-bottom: -12px;
+    display: flex;
+    gap: 5px;
+}
+
+.erro img {
+    height: 12px;
+}
+
+.erro p {
+    margin: 0;
+    font-size: 12px;
+}
+
+
+
+/* BOTÃO */
+
+.contato__botao {
+    width: 165px;
+    height: 51px;
+    margin-top: 32px; /*AQUI*/
+    padding: 16px;
+    gap: 10px;
+    background-color: var(--cor-detalhe);
+    color: #FFFFFF;
+    font-family: var(--fonte);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.78px;
+    border: none;
+}
+
+.contato__botao:hover {
+    background-color: #5595E9;
+}
+
+
+
+/*    TABLET    */
+
+@media (max-width: 768px) {
+
+    section.contato{
+        padding: 32px;
+    }
+
+    .contato__conteiner {
+        padding: 0px;
+        justify-content: flex-start;
+        gap: 0px;
+    }
+
+    .contato__imagem {
+        display: none;
+    }
+
+    .contato__conteudo {
+        width: 704px;
+        height: auto;
+    }
+    
+    .contato__titulo {
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 25.83px;
+    }
+    
+
+
+/* FORMULÁRIO */
+
+    .contato__formulario {
+        width: 704px;
+        height: auto;
+    }
+
+    .contato__formulario__entrada {
+        width: 680px;
+        line-height: 20px;
+    }
+
+    .contato__formulario__entrada::placeholder {
+        width: 680px; 
+    }
+
+    .contato__formulario__entradaTexto {
+        width: 680px;
+        height: 133px;
+        padding: 12px;
+        line-height: 20px;
+    }
+
+    .contato__formulario__entradaTexto::placeholder {
+        width: 680px;
+    }
+
+
+
+/* BOTÃO */
+
+    .contato__botao {
+        width: 151px;
+        height: 40px;
+        padding: 12px 16px 12px 16px;
+        font-size: 14px;
+    }
+
+}
+
+
+
+/*    MOBILE    */
+
+@media (max-width: 425px) {
+
+    section.contato{
+        padding: 32px 16px ;
+    }
+
+    .contato__conteudo {
+        width: 425px;
+    }
+    
+    .contato__info h3 {
+        width: 360px;
+    }
+
+    
+
+/* FORMULÁRIO */
+
+    .contato__formulario {
+        width: 393px;
+    }
+
+    .contato__formulario__entrada {
+        width: 370px;
+    }
+
+    .contato__formulario__entrada::placeholder {
+        width: 370px; 
+    }
+
+    .contato__formulario__entradaTexto {
+        width: 370px;
+        height: 133px;
+        padding: 12px;
+        line-height: 20px;
+    }
+
+    .contato__formulario__entradaTexto::placeholder {
+        width: 370px;
+    }
+    
+}

@@ -1,0 +1,127 @@
+section.formacao {
+    padding: 82px 152px 82px 152px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor-da-secao);
+}
+
+.formacao__titulo {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37.57px;
+}
+
+.formacao__conteudo  {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.formacao__quadro__item {
+    width: 368px;
+    height: 347px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.formacao__quadro__item__imagem {
+    background-color: #FFFFFF;
+    width: 368px;
+    height: 286px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formacao__quadro__item__imagem img {
+    width: 150px;
+}
+
+.formacao__quadro__item__curso h4 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 25.83px;
+}
+
+.formacao__quadro__item__info p {
+    margin: 0;
+    font-weight: 500;
+    line-height: 18.78px;
+}
+
+
+
+/*    TABLET    */
+
+@media (max-width: 768px) {
+
+    section.formacao {
+        padding: 32px;
+    }
+
+    .formacao__titulo {
+        margin: 0px 0px 32px 0px;
+        font-size: 22px;
+        line-height: 25.83px;
+    }
+
+    .formacao__conteudo  {
+        justify-content: center;
+        gap: 16px;
+    }
+
+    .formacao__quadro__item {
+        width: auto;
+        height: auto;
+        gap: 8px;
+    }
+
+    .formacao__quadro__item__imagem {
+        width:  224px;
+        height: 120px;
+    }
+
+    .formacao__quadro__item__imagem img {
+        width: auto;
+        height: 60px;
+    }
+
+    .formacao__quadro__item__curso h4 {
+        font-size: 16px;
+        line-height: 18.78px;
+    }
+
+    .formacao__quadro__item__info p {
+        font-size: 14px;
+        font-weight: 16.44px;
+    }
+
+}
+
+
+
+/*    MOBILE    */
+
+@media (max-width: 425px) {
+
+    section.formacao {
+        padding: 16px;
+    }
+
+    .formacao__titulo {
+        margin: 16px 0px 32px 0px;
+    }
+
+    .formacao__conteudo  {
+        flex-direction: column;
+    }
+
+    .formacao__quadro__item__imagem {
+        width:  auto;
+        height: 150px;
+    }  
+    
+}

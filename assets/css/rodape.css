@@ -1,0 +1,41 @@
+section.footer{
+    padding: 0px 0px 32px 0px;
+}
+
+.rodape__conteudo {
+    height: 64px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.78px;
+}
+
+.rodape__conteudo p {
+    margin: 0;
+}
+
+
+
+/*    TABLET    */
+
+@media (max-width: 768px) {
+   
+    .rodape__conteudo {
+        height: 38px;
+        padding: 32px;
+    }
+
+}
+
+
+
+/*    MOBILE    */
+
+@media (max-width: 425px) {
+
+    .rodape__conteudo {
+        height: 38px;
+        padding: 32px;
+    }
+   
+}
