@@ -4,7 +4,8 @@ Este portfólio foi desenvolvido durante a formação Front-End do programa Orac
 Foi utilizado HTML, CSS e JavaScript para a criação de um formulário com validação e interativo. 
 Além disso, o design da página é totalmente responsivo, garantindo uma ótima experiência do usuário.
 
-![Layout do Projeto](https://github.com/julianaferreira-dev/challenge_one_portfolio/assets/96956180/1072f609-9894-4104-9738-86e78c422d4f)
+![Layout do Projeto](https://github.com/julianaferreira-dev/challenger-one-portfolio/assets/96956180/089d45d2-656e-411b-8914-7a77a9d16a86)
+
 
 ## Ferramentas utilizadas:
 
