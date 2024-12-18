@@ -19,3 +19,4 @@ Além disso, o design da página é totalmente responsivo, garantindo uma ótima
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/julianaferreira-dev/)
 
+![Badge-Portfólio](https://github.com/user-attachments/assets/7be630ac-da62-4f5a-863b-7dcf59689ef6)
